@@ -23,7 +23,7 @@ public class Variables
 				int y;
 				y = 150;
 
-				int z;
+				int z; is le
 
 				z = x + y;
 
@@ -34,5 +34,13 @@ public class Variables
 
 		Debug.Log(Name + " " + Surname);
 		Debug.Log (String.Concat (Name, " ", Surname));
+		if (/"condition"/ )
+			( /" true part "/}
+			 Debug.Log("Z is less than 200");
+			 else{ /" false part "/}
+			{ /* false part */
+				Debug.Log(" Z is greater than 200");
+			}
+			Debug.Log(z >= 150) ? "Z is greater than 150" : " Z is less than 150");
 		}
 	}
