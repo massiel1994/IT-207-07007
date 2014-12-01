@@ -34,13 +34,21 @@ public class Variables
 
 		Debug.Log(Name + " " + Surname);
 		Debug.Log (String.Concat (Name, " ", Surname));
-		if (/"condition"/ )
-			( /" true part "/}
+		if (/*condition"* )
+			( /* true part */}
 			 Debug.Log("Z is less than 200");
-			 else{ /" false part "/}
+			 else
+		    { /*false part */}
 			{ /* false part */
 				Debug.Log(" Z is greater than 200");
 			}
 			Debug.Log(z >= 150) ? "Z is greater than 150" : " Z is less than 150");
+		for ( /* initializer */ int if= 0 ; /* condition*/ if < 10 ; /*increement*/ i++ )
+		{
+			/*statement */
+			Debug.Log(i);
+		}
+		for (int i =10; i> 0; i--)
+		{Debug.Log(i); }
 		}
 	}
