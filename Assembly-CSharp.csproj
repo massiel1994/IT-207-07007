@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{8C1E2CB6-4295-B6A0-DF4B-149387BBAA8F}</ProjectGuid>
+	<ProjectGuid>{6C55BC10-1DB6-0B60-948F-75265AF828E3}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Dungeon Art Pack\AnimateSprite.cs" />
+     <Compile Include="Assets\Scripts\CSharptut.cs" />
      <Compile Include="Assets\Scripts\MyCharacterController.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
