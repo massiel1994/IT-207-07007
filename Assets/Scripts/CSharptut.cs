@@ -23,7 +23,7 @@ public class Variables
 				int y;
 				y = 150;
 
-				int z; is le
+				int z; 
 
 				z = x + y;
 
@@ -33,7 +33,7 @@ public class Variables
 		string Surname = "Schmoe";
 
 		Debug.Log(Name + " " + Surname);
-		Debug.Log (String.Concat (Name, " ", Surname));
+		Debug.Log (String.Concat(Name, " ", Surname));
 		if (/*condition"* )
 			( /* true part */}
 			 Debug.Log("Z is less than 200");
@@ -50,5 +50,16 @@ public class Variables
 		}
 		for (int i =10; i> 0; i--)
 		{Debug.Log(i); }
+		/*pre-condition while */
+		/* execute -* */
+		bool islooping = true;
+		internal counter = 0;
+
+		       {
+			/* loop body */
+			Debug.Log(++counter);
+			islooping = counter <= 100;
 		}
+			while ( /* condition */ islooping )
 	}
+}
