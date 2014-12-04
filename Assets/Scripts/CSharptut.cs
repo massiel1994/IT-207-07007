@@ -54,12 +54,12 @@ public class Variables
 		/* execute -* */
 		bool islooping = true;
 		internal counter = 0;
-
+		while ( /* condition */ islooping ) ;
 		       {
 			/* loop body */
 			Debug.Log(++counter);
 			islooping = counter <= 100;
 		}
-			while ( /* condition */ islooping )
+
 	}
 }
